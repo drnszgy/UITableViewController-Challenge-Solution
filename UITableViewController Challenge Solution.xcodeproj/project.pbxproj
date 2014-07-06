@@ -15,13 +15,13 @@
 		1BA1995C1969A725000EDEBD /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1995B1969A725000EDEBD /* CCAppDelegate.m */; };
 		1BA1995F1969A725000EDEBD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1995D1969A725000EDEBD /* Main_iPhone.storyboard */; };
 		1BA199621969A725000EDEBD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA199601969A725000EDEBD /* Main_iPad.storyboard */; };
-		1BA199651969A725000EDEBD /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA199641969A725000EDEBD /* CCViewController.m */; };
 		1BA199671969A725000EDEBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA199661969A725000EDEBD /* Images.xcassets */; };
 		1BA1996E1969A725000EDEBD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA1996D1969A725000EDEBD /* XCTest.framework */; };
 		1BA1996F1969A725000EDEBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA1994B1969A725000EDEBD /* Foundation.framework */; };
 		1BA199701969A725000EDEBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA1994F1969A725000EDEBD /* UIKit.framework */; };
 		1BA199781969A725000EDEBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BA199761969A725000EDEBD /* InfoPlist.strings */; };
 		1BA1997A1969A725000EDEBD /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA199791969A725000EDEBD /* UITableViewController_Challenge_SolutionTests.m */; };
+		1BA199851969AA12000EDEBD /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA199841969AA12000EDEBD /* CCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +47,14 @@
 		1BA1995B1969A725000EDEBD /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		1BA1995E1969A725000EDEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		1BA199611969A725000EDEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		1BA199631969A725000EDEBD /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
-		1BA199641969A725000EDEBD /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		1BA199661969A725000EDEBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1BA1996C1969A725000EDEBD /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA1996D1969A725000EDEBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1BA199751969A725000EDEBD /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		1BA199771969A725000EDEBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BA199791969A725000EDEBD /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		1BA199831969AA12000EDEBD /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		1BA199841969AA12000EDEBD /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +117,9 @@
 				1BA1995A1969A725000EDEBD /* CCAppDelegate.h */,
 				1BA1995B1969A725000EDEBD /* CCAppDelegate.m */,
 				1BA1995D1969A725000EDEBD /* Main_iPhone.storyboard */,
+				1BA199831969AA12000EDEBD /* CCTableViewController.h */,
+				1BA199841969AA12000EDEBD /* CCTableViewController.m */,
 				1BA199601969A725000EDEBD /* Main_iPad.storyboard */,
-				1BA199631969A725000EDEBD /* CCViewController.h */,
-				1BA199641969A725000EDEBD /* CCViewController.m */,
 				1BA199661969A725000EDEBD /* Images.xcassets */,
 				1BA199521969A725000EDEBD /* Supporting Files */,
 			);
@@ -256,7 +256,7 @@
 			files = (
 				1BA1995C1969A725000EDEBD /* CCAppDelegate.m in Sources */,
 				1BA199581969A725000EDEBD /* main.m in Sources */,
-				1BA199651969A725000EDEBD /* CCViewController.m in Sources */,
+				1BA199851969AA12000EDEBD /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
